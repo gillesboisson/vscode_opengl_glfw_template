@@ -1,6 +1,7 @@
 ## VSCode GLFW Opengl template for mac
 
 ### Install
+
 here is how you can bootstrap an Opengl project with vscode
 
 - install Xcode command line tool (or simply install xcode)
@@ -19,7 +20,7 @@ And you're ready to start
 
 ### Build
 
-The build process use makefile and g++, it is setup on **Makefile** on project root.
+The build process use makefile and g++, it is setup in a **Makefile** on project root.
 
 Here is make commands
 
@@ -35,4 +36,4 @@ Vscode project directory is provided, it include c++ environment settings, tasks
 
 It is based on vscode c/c++ extension [More info on how it works here](https://code.visualstudio.com/docs/languages/cpp)
 
-As I'm c++ young padawan (coming from far far away WebGL), now as it works only on mac it would good to have a cross plateform solution. Don't hesitate to give me feedback or pull request for cross plateform implementation.
+As I'm c++ young padawan (coming from far far away WebGL), now it works only on mac it would good to have a cross plateform solution. Don't hesitate to give me feedback or pull request for cross plateform implementation.
