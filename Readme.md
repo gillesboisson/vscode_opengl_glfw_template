@@ -14,13 +14,13 @@ brew install glew
 ```
 
 - Pull this repo 
-- Create a bin and obj directory in project roots
+- Create a bin and obj directory in project root directory
 
 And you're ready to start
 
 ### Build
 
-The build process use makefile and g++, it is setup in a **Makefile** on project root.
+The build process use makefile and g++, it is setup in a **Makefile** on project root directory.
 
 Here is make commands
 
