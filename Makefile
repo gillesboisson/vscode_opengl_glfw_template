@@ -34,7 +34,8 @@ endif
 
 # LINKER_FLAGS specifies the libraries we're linking against
 # Cocoa, IOKit, and CoreVideo are needed for static GLFW3.
-LINKER_FLAGS = -lglfw3  -lGLEW -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
+# The glfw3 is deprecated. Now when you run 'brew install glfw3' you actually installed the glfw with version 3.x
+LINKER_FLAGS = -lglfw  -lGLEW -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
 
 
 # APP_NAME specifies the name of our exectuable
